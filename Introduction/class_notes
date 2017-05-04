@@ -1,0 +1,100 @@
+Angular2.
+
+    - Angular2 is the Framework for UI Applications.
+
+    - Angular2 Follows the MVC Design Pattern.
+
+        M - Model  (TypeScript Members / JavaScript Variables)
+
+        V - View   (HTML / HTML5 / JADE )
+
+        C - Controller (JavaScript Functions /  Type Script Decorators)
+
+    - In Genaral we will prepare Angular2 Applications By using TypeScript.
+
+    - TypeScript is the SuperSet of JavaScript
+
+    - Microsoft Identifies the "Issues / Limitations / Drawbacks" of AngularJS  and Provides the
+
+      Sollutions in the Form of a TypeScript.
+
+    - Angular2 is not the "Advanced Version AngularJS".
+
+    - We Can Run the Angular Applications in the Following Platforms.
+
+            1.Desktop
+
+            2.Web
+
+            3.Mobile Browser
+
+            4.Mobile OS
+
+                    Android
+
+                    iPhone
+
+    - Angular2 Apps are 5X faster than AngularJS Applications
+
+    - We Can't Run the Angular2 Applications without Proper Environmental Setup.
+
+    - In Genaral we will Run the Angular2 Application by using "lite server"
+
+    - Angular2 Can Interact with the Multiple Technologies like AngularJS,
+
+                                                                reactJS
+
+                                                                Java
+
+                                                                dotnet
+
+                                                                NodeJS
+
+
+
+Core Features Of Angular2
+
+1.Single Page Applications
+
+    - Loading the Target Web Pages to Source Web Pages , Without Refreshing the Whole "Source Web Page"
+
+      Called as Single Page Application.
+
+
+2. Routing
+
+    - Loading the Target Web Pages to Source Web Page Called as Routing.
+
+
+3.services
+
+    - In genaral we will use services to Provide Common Business Logic to the Components.
+
+
+4.Component
+
+    - Component will tell how "view" should be present.
+
+    - Component Acting as Glue Between View and Model.
+
+    - In Genaral we will prepare Components By using TypeScript.
+
+    - TypeScript Follows OOPS.
+
+
+5. Module.
+
+    - Collection Of Related Code (Tasks/ Business Logic) Called as Module.
+
+    - Angular2 Application May be the More Than One Module.
+
+    - We Can Provide The Communication Between the One Module to Another Module in Angular2 Application.
+
+
+6.Pipes
+
+        We Can Filter the data Accroding to Application Requirement.
+
+        As a Angular2 Developer we can Customize the Pipes.
+
+
