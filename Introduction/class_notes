@@ -98,3 +98,132 @@ Core Features Of Angular2
         As a Angular2 Developer we can Customize the Pipes.
 
 
+7.Angular2 Supports All most all the MIME Types.
+
+    Ex.
+
+        JSON
+
+        XML
+
+        CSV  (Coma Separated Value)
+
+        Text
+
+        --
+        --
+        --
+
+     JSON.
+
+           - JSON Stands for Java Script Object Notation.
+
+           - JSON Used to Transfer the Data (Carring The Data) from one Network to Another Network.
+
+           - JSON is Ligth Weigth Compared to XML.
+
+           - Reading of JSON Files Are Simple Compared to XML Files.
+
+           Notations in JSON.
+
+            1. { }  ---> Objects in JSON
+
+            2. [ ]  ---> Arrays in JSON
+
+            3. Data ---> key & value
+
+                - key & value separated by using ":"
+
+                - each "key&value" pairs separated by using ","
+
+                - we can store "objects into arrays" and viceversa.
+
+                - we can store the data in "arrays" and "objects"
+
+
+
+            Example_1.
+
+            {
+                "key1":"value1",
+                "key2":"value2"
+
+                    ---
+                    ---
+            }
+
+            Example_2.
+            {
+               "emp":[
+                        {'id':101,'name':'Hello_1','age':20},
+                        {'id':102,'name':'Hello_2','age':22},
+                        {'id':103,'name':'Hello_3','age':24},
+                        {'id':104,'name':'Hello_4','age':26},
+                        {'id':105,'name':'Hello_5','age':28}
+                ]
+            }
+
+
+            var obj = function(){
+                var x = {"key1":"Angular2" , "key2":"NodeJS" , "key3":"MongoDB"};
+                function getX(){
+                    return x.key1+"...."+x.key2+"...."+x.key3;
+                }
+            }
+
+            var res = new obj().getX();
+            console.log(res);
+
+
+
+            class Test{
+                var result = "";
+                var x = [
+                            {'id':101,'name':'Hello_1','age':20},
+                            {'id':102,'name':'Hello_2','age':22},
+                            {'id':103,'name':'Hello_3','age':24},
+                            {'id':104,'name':'Hello_4','age':26},
+                            {'id':105,'name':'Hello_5','age':28}
+                        ];
+
+                function my_fun(){
+
+                    for(var i = 0; i < x.length(); i++){
+                            var res_one  = x[i].id;
+                            var res_two  = x[i].name;
+                            var res_three  = x[i].age;
+                            result = result+res_one+"\n"+res_two+"\n"+res_three;
+                    }
+
+                }
+
+            }
+
+            console.log(new Test().my_fun());
+
+
+XML.
+
+  XML Stands for Extensible Markup Language.
+
+  XML Used to Carry the Data From One Network to Another Network.
+
+  XML is Heavy Weigth Compared to JSON.
+
+  Reading the Data From XML File difficult Compared to JSON.
+
+  In Genaral we will Read the Data From XML Files By using Parsers.
+
+        DOM Parser
+
+        SAX Parser
+
+        XML Pull Parser
+
+
+
+
+
+
+
+
