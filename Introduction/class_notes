@@ -51,7 +51,6 @@ Angular2.
                                                                 NodeJS
 
 
-
 Core Features Of Angular2
 
 1.Single Page Applications
@@ -219,6 +218,87 @@ XML.
         SAX Parser
 
         XML Pull Parser
+
+    Ex.
+
+        emp.xml
+        -
+
+        <emp>
+            <eno>111</eno>
+            <ename>Hello</ename>
+            <eage>20</eage>
+        </emp>
+
+        var objFunction = function(){
+          this.fun_one = function(){
+                   Document d = Document.load("emp.xml");
+                   var x = d.getDocumentElement().getElementsByTagName("eno").item(0).value();
+                   var y = d.getDocumentElement().getElementsByTagName("ename").item(0).value();
+                   var z = d.getDocumentElement().getElementsByTagName("eage").item(0).value();
+                   return x+"..."+y+"..."+z;
+             }
+        };
+
+        console.log(new objFunction().fun_one());
+
+Environmental Setup.
+    - The Softwares Required to Develop Angular2 Application called as Environmental Setup.
+
+
+1.Download and Install the NodeJS.
+
+    Website : https://nodejs.org/en/download/
+    file    : node-v6.10.3-x64.msi
+
+
+2.Download and Install the GIT.
+
+    website : https://git-scm.com/downloads
+    file    : Git-2.12.2.2-64-bit.exe
+
+
+3. Download the Environmental Setup from angular2 wensite in the form of a zip file.
+
+    website : http://www.angular2.com/
+    file    : angular2-seed.zip
+
+
+4. Download the IDE - VisualStudioCode (or) WebStrom.
+
+    Website : https://code.visualstudio.com/
+    File Name : VSCodeSetup-1.12.1.exe
+
+    Website : https://www.jetbrains.com/webstorm/download/#section=windows
+    File Name : Webstrom-2017.1.2.exe
+
+
+5. Import the Environmental Setup to IDE.
+
+6. Install the TypeScript
+
+    npm install -g typescript
+
+7. Run The Angular2 Application.
+
+    >npm install
+    >npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
